@@ -1,7 +1,117 @@
-.button {
+body {
+  background-color: orangered;
+}
+
+p {
+  font-size: 20px;
+
+}
+.centerItems { 
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;  
+}
+
+#text-show {
+  display: none;
+  color: green;
+  border: 1px solid blue;
+ 
+}
+
+#textMario-show {
+  display: none;
+  color: black;
+  
+ 
+}
+#bringMario-show {
+  display: none;
+  color: blue;
+  border: 1px solid black;
+}
+
+#textZelda-show {
+  display: none;
+  color: black;
+ 
+ 
+}
+#bringZelda-show {
+  display: none;
+  color: blue;
+  border: 1px solid black;
+}
+
+#textPokemon-show {
+  display: none;
+  color: black;
+  
+ 
+}
+#bringPokemon-show {
+  display: none;
+  color: blue;
+  border: 1px solid black;
+}
+
+.MainMenuButton {
   border: none;
   color: black;
-  background-color: orange;
+  background-color: orangered;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.MarioButton {
+  border: none;
+  color: black;
+  background-color: red;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.ZeldaButton {
+  border: none;
+  color: black;
+  background-color: green;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.PokemonButton {
+  border: none;
+  color: black;
+  background-color: yellow;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.AboutButton {
+  border: none;
+  color: black;
+  background-color: grey;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;

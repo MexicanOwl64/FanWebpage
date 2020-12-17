@@ -1,3 +1,6 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="main.js"></script>
+
 <!DOCTYPE html>
 <html>
   <link rel="stylesheet" href="style.css">
@@ -8,25 +11,49 @@
 </head>
 
 <body>
-
-<div>
+<div class="centerItems">  
+  <img class=NintendoLog src="../Images/SNESConsole.jpg" alt= "The logo for nintendo">
+  <img class=NintendoLog src="../Images/Nintendo Logo.jpg" alt= "The logo for nintendo">
+  <img class=NintendoLog src="../Images/NintendoSwitch.jpg" alt= "The logo for nintendo">
   <h1>Welcome to the World of Nintendo</h1>
-
-</div>
-<div><p>Click one of the following buttons to start exploring what I have to offer</p></div>
-
-<div>
-<a href="MarioPage/"><button class="button"  > Mario</button></a>
-<a href="ZeldaPage/"><button class="button"  > Zelda</button></a>
-<a href="PokemonPage/"><button class="button"  > Pokemon</button></a>
-<a href="AboutPage/"><button class="button"  > About</button></a>
-
 </div>
 
+<div><p class="centerItems">Click one of the following buttons to start exploring what I have to offer</p></div>
+
+<div class="centerItems">
+
+  <a href="../MarioPage/"><button class="MarioButton"  > Mario </button></a>
+
+  <a href="../ZeldaPage/"><button class="ZeldaButton"  > Zelda </button></a>
+  
+  <a href="../PokemonPage/"><button class="PokemonButton"  > Pokemon </button></a>
+
+  <a href="../AboutPage/"><button class="AboutButton"  > About Page</button></a>
+</div>
+
 <div>
-  <p>This will be one text box</p>
-  <p>This should be another text box</p>
-</div> 
+  <p>Click the image to learn a little bit about the Mario Franchise</p>
+  <a href="#" id="MarioShow"><img id="MarioImg-show" class=MarioStart src="../Images/MarioBros3Start.jpg" alt= "Mario Bros 3"></a>
+  <p id="textMario-show">Super Mario Bros 3 (the image that you clicked) is actually a play that you are a part of by playing the role of the hero. In a interview with Miyamoto he himself says that Mario Bros 3 is supposed to be a play.</p>
+  <a href="#" id="MarioHide"><p id="bringMario-show">Click here to bring the Image back</p></a>
+</div>
+
+<div>
+  
+  <p>Click this image to learn a little bit about the Zelda Franchise</p>
+
+  <a href="#" id="ZeldaShow"><img id="ZeldaImg-show" class=ZeldaStart src="../Images/OcarinaOfTime.jpg" alt= "OcarinaOfTime"></a>
+  <p id="textZelda-show">Ocarina of Time was the first time that a Zelda game was displayed in 3D.  This blew a lot of people away when they first saw gameplay of this game</p>
+  <a href="#" id="ZeldaHide"><p id="bringZelda-show">Click here to bring the Image back</p></a>
+  
+</div>
+
+<div>
+  <p>Click this image to learn a little bit about the Pokemon Franchise</p>
+  <a href="#" id="PokemonShow"><img id="PokemonImg-show" class=PokemonStart src="../Images/PokemonStart.jpg" alt= "PokemonTheme"></a>
+  <p id="textPokemon-show">There is a little trick about Pokemon Platinum (image clicked) that if you hold A,B,L,R and the select button you are able to soft reset the game incase you ever get stuck in something.  Also helps if you are a shiny hunter</p>
+  <a href="#" id="PokemonHide"><p id="bringPokemon-show">Click here to bring the Image back</p></a>
+</div>
 </body>
 
 </html>
